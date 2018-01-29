@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Your Prime Result</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <h1>THIS IS YOUR RESULT</h1>
+    <h2>Your number was <%= number %></h2>
+    <% if (isPrime) { %>
+    <h2 id="prime">Your number was prime</h2>
+    <% } else { %>
+    <h2 id="notprime">Your number was not prime</h2>
+    <% } %>
+
+  </body>
+</html>
